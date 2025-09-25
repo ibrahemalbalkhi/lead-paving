@@ -1,0 +1,6 @@
+.env*.local
+.git
+.github
+.vscode
+node_modules
+CLAUDE.md
