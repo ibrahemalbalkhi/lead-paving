@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import FloatingCTA from "../../components/FloatingCTA";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -31,6 +32,18 @@ export default function BlogPost() {
             </header>
 
             <div className="prose prose-lg max-w-none">
+              {/* Curved Road Image */}
+              <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/stock-images/curved-road-in-open-valley-mountains.jpg"
+                  alt="Curved road in open valley with mountains - representing the path to success with Google Local Service Ads"
+                  width={1200}
+                  height={500}
+                  className="w-full h-64 md:h-80 object-cover"
+                  priority={false}
+                />
+              </div>
+
               <section className="mb-12">
                 <h2 className="text-3xl font-bold mb-6">The $30 Phone Call That Changes Everything</h2>
                 <p className="text-lg">

@@ -2,11 +2,12 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import FloatingCTA from "../components/FloatingCTA";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services for Paving Contractors | Lead Paving",
-  description: "Proven digital marketing packages for paving contractors. Lead Generation ($2,500/mo) and Growth Package ($4,000/mo). Start with our $500 trial.",
+  title: "Google Ads, SEO & Website Services for Paving Contractors | Lead Paving",
+  description: "Complete digital marketing services for paving contractors. Google Ads management, local SEO, and professional websites that generate more jobs.",
 };
 
 export default function ServicesPage() {
@@ -20,14 +21,13 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Digital Marketing That <span className="text-primary">Delivers</span>
+              Marketing Services for <span className="text-primary">Paving Contractors</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-700">
-              Two proven packages designed specifically for paving contractors.
-              Both start with our risk-free $500 trial.
+              Google Ads, SEO, and professional websites designed specifically for asphalt and concrete contractors.
             </p>
             <Link href="/get-started" className="btn-primary text-xl">
-              Start With $500 Trial
+              Get Your Free Consultation
             </Link>
           </div>
         </div>
@@ -38,30 +38,34 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4">Choose Your Growth Path</h2>
+              <h2 className="text-4xl font-bold mb-4">Our Digital Marketing Services</h2>
               <p className="text-xl text-gray-600">
-                Both packages require completing our $500 trial first
+                Everything your paving business needs to dominate online
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              {/* Lead Generation Package */}
-              <div className="border-2 border-gray-200 rounded-lg p-8">
-                <h3 className="text-3xl font-bold mb-2">Lead Generation</h3>
-                <p className="text-gray-600 mb-4">Perfect for established contractors ready to scale</p>
-                <div className="mb-8">
-                  <p className="text-5xl font-bold text-primary">$2,500</p>
-                  <p className="text-gray-600">/month</p>
-                </div>
+            {/* Digital Marketing Dashboard Image */}
+            <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/stock-images/digital-marketing-analytics-dashboard-on-tablet.jpg"
+                alt="Digital marketing analytics dashboard on tablet showing campaign performance for paving contractors"
+                width={1200}
+                height={500}
+                className="w-full h-48 md:h-72 object-cover"
+                priority={false}
+              />
+            </div>
 
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              {/* Google Ads Service */}
+              <div className="border-2 border-gray-200 rounded-lg p-8">
+                <div className="text-4xl mb-4">🎯</div>
+                <h3 className="text-3xl font-bold mb-2">Google Ads</h3>
+                <p className="text-gray-600 mb-4">Get instant visibility when customers search for paving services</p>
                 <div className="mb-8">
-                  <p className="font-bold text-lg mb-2">Expected Results:</p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 30-50 qualified leads/month</li>
-                    <li>• 5-8 new jobs/month</li>
-                    <li>• $25,000-80,000 revenue/month</li>
-                    <li>• 10-32X ROI average</li>
-                  </ul>
+                  <p className="text-3xl font-bold text-primary">Starting at</p>
+                  <p className="text-4xl font-bold text-primary">$1,500</p>
+                  <p className="text-gray-600">/month management</p>
                 </div>
 
                 <div className="mb-8">
@@ -71,42 +75,35 @@ export default function ServicesPage() {
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
                         <span className="font-semibold">Google Local Service Ads</span>
-                        <p className="text-sm text-gray-600">Full setup and management with Google Guarantee</p>
+                        <p className="text-sm text-gray-600">Pay per lead, Google Guaranteed</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Google My Business</span>
-                        <p className="text-sm text-gray-600">Complete optimization and daily management</p>
+                        <span className="font-semibold">Search Ads</span>
+                        <p className="text-sm text-gray-600">Target high-intent keywords</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Review Generation</span>
-                        <p className="text-sm text-gray-600">Automated system to get 5-10 reviews/month</p>
+                        <span className="font-semibold">Campaign Optimization</span>
+                        <p className="text-sm text-gray-600">Continuous performance improvement</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Google Search Ads</span>
-                        <p className="text-sm text-gray-600">$1,500-3,000/mo budget management</p>
+                        <span className="font-semibold">Conversion Tracking</span>
+                        <p className="text-sm text-gray-600">Track every lead and call</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Conversion Website</span>
-                        <p className="text-sm text-gray-600">Mobile-optimized lead capture site</p>
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
-                      <div>
-                        <span className="font-semibold">Monthly Reporting</span>
-                        <p className="text-sm text-gray-600">Detailed performance and ROI reports</p>
+                        <span className="font-semibold">Monthly Reports</span>
+                        <p className="text-sm text-gray-600">Detailed performance analytics</p>
                       </div>
                     </li>
                   </ul>
@@ -116,75 +113,60 @@ export default function ServicesPage() {
                   href="/get-started"
                   className="block text-center py-3 px-6 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors"
                 >
-                  Start With Trial
+                  Get Started
                 </Link>
               </div>
 
-              {/* Growth Package */}
+              {/* SEO Service */}
               <div className="border-2 border-primary rounded-lg p-8 relative">
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-white px-6 py-2 rounded-full">
                   <span className="text-sm font-bold">MOST POPULAR</span>
                 </div>
-                <h3 className="text-3xl font-bold mb-2">Growth Package</h3>
-                <p className="text-gray-600 mb-4">For contractors serious about dominating their market</p>
+                <div className="text-4xl mb-4">📈</div>
+                <h3 className="text-3xl font-bold mb-2">SEO Services</h3>
+                <p className="text-gray-600 mb-4">Dominate local search results for paving contractors in your area</p>
                 <div className="mb-8">
-                  <p className="text-5xl font-bold text-primary">$4,000</p>
+                  <p className="text-3xl font-bold text-primary">Starting at</p>
+                  <p className="text-4xl font-bold text-primary">$2,000</p>
                   <p className="text-gray-600">/month</p>
                 </div>
 
                 <div className="mb-8">
-                  <p className="font-bold text-lg mb-2">Expected Results:</p>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• 60-100 qualified leads/month</li>
-                    <li>• 10-15 new jobs/month</li>
-                    <li>• $50,000-150,000 revenue/month</li>
-                    <li>• 12-37X ROI average</li>
-                  </ul>
-                </div>
-
-                <div className="mb-8">
-                  <p className="font-bold text-lg mb-2">Everything in Lead Generation, PLUS:</p>
+                  <p className="font-bold text-lg mb-2">What's Included:</p>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Facebook & Instagram Ads</span>
-                        <p className="text-sm text-gray-600">$1,000-2,000/mo social media campaigns</p>
+                        <span className="font-semibold">Local SEO Optimization</span>
+                        <p className="text-sm text-gray-600">Rank for "paving contractors near me"</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Email Marketing</span>
-                        <p className="text-sm text-gray-600">Automated nurture campaigns and newsletters</p>
+                        <span className="font-semibold">Google My Business</span>
+                        <p className="text-sm text-gray-600">Complete optimization and management</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">SEO Content</span>
-                        <p className="text-sm text-gray-600">2 optimized blog posts/month for organic growth</p>
+                        <span className="font-semibold">Content Marketing</span>
+                        <p className="text-sm text-gray-600">Industry-relevant blog posts</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Social Media Management</span>
-                        <p className="text-sm text-gray-600">3 posts/week on Facebook and Instagram</p>
+                        <span className="font-semibold">Review Management</span>
+                        <p className="text-sm text-gray-600">Automated review generation</p>
                       </div>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
                       <div>
-                        <span className="font-semibold">Dedicated Account Manager</span>
-                        <p className="text-sm text-gray-600">Weekly calls and priority support</p>
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
-                      <div>
-                        <span className="font-semibold">Competitor Monitoring</span>
-                        <p className="text-sm text-gray-600">Stay ahead with market intelligence</p>
+                        <span className="font-semibold">Competitive Analysis</span>
+                        <p className="text-sm text-gray-600">Stay ahead of local competitors</p>
                       </div>
                     </li>
                   </ul>
@@ -194,18 +176,77 @@ export default function ServicesPage() {
                   href="/get-started"
                   className="btn-primary block text-center"
                 >
-                  Start With Trial
+                  Get Started
+                </Link>
+              </div>
+
+              {/* Website Development Service */}
+              <div className="border-2 border-gray-200 rounded-lg p-8">
+                <div className="text-4xl mb-4">🌐</div>
+                <h3 className="text-3xl font-bold mb-2">Website Development</h3>
+                <p className="text-gray-600 mb-4">Professional websites that convert visitors into paving customers</p>
+                <div className="mb-8">
+                  <p className="text-3xl font-bold text-primary">Starting at</p>
+                  <p className="text-4xl font-bold text-primary">$3,500</p>
+                  <p className="text-gray-600">one-time + hosting</p>
+                </div>
+
+                <div className="mb-8">
+                  <p className="font-bold text-lg mb-2">What's Included:</p>
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <div>
+                        <span className="font-semibold">Custom Design</span>
+                        <p className="text-sm text-gray-600">Built specifically for paving contractors</p>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <div>
+                        <span className="font-semibold">Mobile Responsive</span>
+                        <p className="text-sm text-gray-600">Perfect on all devices</p>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <div>
+                        <span className="font-semibold">Lead Capture Forms</span>
+                        <p className="text-sm text-gray-600">Convert visitors to customers</p>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <div>
+                        <span className="font-semibold">Project Gallery</span>
+                        <p className="text-sm text-gray-600">Showcase your best work</p>
+                      </div>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <div>
+                        <span className="font-semibold">Fast Loading</span>
+                        <p className="text-sm text-gray-600">Optimized for search engines</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <Link
+                  href="/get-started"
+                  className="block text-center py-3 px-6 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors"
+                >
+                  Get Started
                 </Link>
               </div>
             </div>
 
-            {/* Ad Spend Note */}
-            <div className="bg-yellow-50 border-2 border-yellow-300 rounded-lg p-6 text-center mb-12">
-              <p className="font-bold text-lg mb-2">📌 Important: Ad Spend Not Included</p>
+            {/* Important Note */}
+            <div className="bg-blue-50 border-2 border-blue-300 rounded-lg p-6 text-center mb-12">
+              <p className="font-bold text-lg mb-2">📌 Flexible Service Packages</p>
               <p className="text-gray-700">
-                Monthly packages cover our management fees only. Recommended ad spend:
-                $1,500-3,000/month for Lead Generation, $3,000-5,000/month for Growth.
-                All ad spend goes directly to Google/Facebook.
+                All services can be combined for maximum impact. Google Ads management fees are separate from your ad spend budget.
+                We'll recommend the right combination based on your business goals and budget.
               </p>
             </div>
           </div>
@@ -216,9 +257,21 @@ export default function ServicesPage() {
       <section className="section bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12">
-              Why Paving Contractors Choose Lead Paving
+            <h2 className="text-4xl font-bold text-center mb-8">
+              Why Paving Contractors Choose Our Marketing Services
             </h2>
+
+            {/* Mountain Valley Road Image */}
+            <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/stock-images/winding-road-through-mountain-valley-landscape.jpg"
+                alt="Winding road through mountain valley landscape - representing our journey with paving contractors"
+                width={1200}
+                height={400}
+                className="w-full h-48 md:h-64 object-cover"
+                priority={false}
+              />
+            </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-6 rounded-lg text-center">
@@ -342,13 +395,13 @@ export default function ServicesPage() {
             </div>
 
             <div className="mt-12 bg-black text-white p-8 rounded-lg text-center">
-              <h3 className="text-2xl font-bold mb-4">Ready to Grow?</h3>
+              <h3 className="text-2xl font-bold mb-4">Ready to Get More Paving Jobs?</h3>
               <p className="text-xl mb-6">
                 Every day you wait, your competitors get stronger online.
-                Start with zero risk.
+                Let's discuss which services will work best for your business.
               </p>
               <Link href="/get-started" className="btn-primary text-xl">
-                Claim Your $500 Trial
+                Get Your Free Consultation
               </Link>
             </div>
           </div>

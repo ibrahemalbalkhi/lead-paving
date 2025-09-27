@@ -2,12 +2,13 @@ import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import FloatingCTA from "../../components/FloatingCTA";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How We Generate 20 Paving Leads in 30 Days - Lead Paving",
-  description: "The exact step-by-step process we use to guarantee 20 qualified leads for paving contractors in their first month. Proven strategies that work.",
-  keywords: "paving leads, contractor marketing, lead generation, Google LSAs, paving advertising",
+  title: "How to Get More Paving Jobs with Google Ads - Lead Paving",
+  description: "Complete guide to Google Ads for paving contractors. Learn how to use Google Local Service Ads and Search Ads to get more asphalt and concrete jobs.",
+  keywords: "paving contractor google ads, asphalt contractor advertising, concrete contractor marketing, paving business leads",
 };
 
 export default function BlogPost() {
@@ -21,120 +22,156 @@ export default function BlogPost() {
           <div className="max-w-4xl mx-auto">
             {/* Article Header */}
             <header className="mb-12">
-              <p className="text-sm text-gray-500 mb-4">January 15, 2024 • 8 min read</p>
+              <p className="text-sm text-gray-500 mb-4">January 15, 2024 • 10 min read</p>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                How We Generate 20 Paving Leads in 30 Days
+                How to Get More Paving Jobs with Google Ads
               </h1>
               <p className="text-xl text-gray-600">
-                The exact step-by-step process we use to guarantee 20 qualified leads for
-                paving contractors in their first month. No fluff, just proven strategies
-                that have generated 47,000+ leads.
+                Complete guide to Google Ads for paving contractors. Learn how to use Google Local Service Ads
+                and Search Ads to consistently win more asphalt, concrete, and driveway projects.
               </p>
             </header>
 
             {/* Article Content */}
             <div className="prose prose-lg max-w-none">
+              {/* Hero Image for Blog */}
+              <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/stock-images/highway-traffic-at-sunset-with-streetlights.jpg"
+                  alt="Highway traffic at sunset with streetlights - representing digital marketing reach for paving contractors"
+                  width={1200}
+                  height={500}
+                  className="w-full h-64 md:h-80 object-cover"
+                  priority={false}
+                />
+              </div>
+
               <section className="mb-12">
                 <p className="text-lg">
-                  Every paving contractor we work with starts skeptical. They've been burned
-                  by marketing agencies before. They've heard promises of "guaranteed leads"
-                  that never materialized. So when we tell them we'll deliver 20 qualified
-                  paving leads in 30 days or they pay nothing, they assume it's too good to be true.
+                  If you're a paving contractor struggling to get consistent work, you're not alone.
+                  85% of homeowners search online before hiring contractors, yet most paving companies
+                  still rely on word-of-mouth and outdated marketing methods. Meanwhile, smart contractors
+                  are using Google Ads to book jobs weeks in advance.
                 </p>
                 <p className="text-lg">
-                  But here's the thing: it's not magic. It's a systematic, proven process
-                  that we've refined across 127 paving contractors. And today, I'm going to
-                  show you exactly how we do it.
+                  The good news? You don't need to be a marketing expert to succeed with Google Ads.
+                  This guide will show you exactly how to set up and run profitable Google Ads campaigns
+                  for your paving business.
                 </p>
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold mb-6">The Foundation: Days 1-7</h2>
+                <h2 className="text-3xl font-bold mb-6">Why Google Ads Work So Well for Paving Contractors</h2>
 
-                <h3 className="text-2xl font-semibold mb-4">Google Local Service Ads (48 Hours)</h3>
-                <p>
-                  The first thing we do is get you on Google Local Service Ads. These are the
-                  "Google Guaranteed" ads that show up at the very top of search results. For
-                  paving contractors, they're absolute gold.
-                </p>
-                <p>Here's why LSAs work so well:</p>
-                <ul className="list-disc pl-6 space-y-2 mb-6">
-                  <li>You only pay for actual phone calls, not clicks</li>
-                  <li>Google pre-screens the leads for service area and availability</li>
-                  <li>The "Google Guaranteed" badge builds instant trust</li>
-                  <li>You appear above ALL other ads and organic results</li>
-                </ul>
-                <p>
-                  We typically see the first LSA leads within 48-72 hours of activation.
-                  Average cost per lead: $30-50. Conversion rate: 15-20%.
+                <p className="text-lg mb-6">
+                  Before we dive into tactics, let's understand why Google Ads are perfect for paving businesses:
                 </p>
 
-                <h3 className="text-2xl font-semibold mb-4 mt-8">Google My Business Optimization (Day 3-4)</h3>
+                <h3 className="text-2xl font-semibold mb-4">High-Intent Customers</h3>
                 <p>
-                  While LSAs are warming up, we completely overhaul your Google My Business
-                  profile. This isn't just filling out your hours and uploading a few photos.
-                  We're talking about:
-                </p>
-                <ul className="list-disc pl-6 space-y-2 mb-6">
-                  <li>Adding all relevant service categories (most contractors miss 5-10)</li>
-                  <li>Optimizing your business description with high-intent keywords</li>
-                  <li>Uploading 20-30 high-quality project photos</li>
-                  <li>Setting up Google Posts for current offers</li>
-                  <li>Enabling messaging and quote requests</li>
-                </ul>
-                <p>
-                  Result: 40% increase in profile views, 60% increase in direction requests,
-                  3-5 additional leads per week just from GMB.
+                  When someone searches "driveway paving near me" or "asphalt repair contractors," they're not browsing.
+                  They have a problem and need it fixed. These are customers ready to hire and spend money.
                 </p>
 
-                <h3 className="text-2xl font-semibold mb-4 mt-8">Competitor Analysis (Day 5-6)</h3>
+                <h3 className="text-2xl font-semibold mb-4 mt-8">Local Focus</h3>
                 <p>
-                  We analyze your top 5 local competitors to understand exactly how they're
-                  winning online. We look at their keywords, ad copy, offers, and weaknesses.
-                  This intelligence shapes our entire strategy.
+                  Paving is inherently local. Google Ads let you target customers within your exact service area,
+                  so you're not wasting money on people too far away to serve.
                 </p>
-                <p className="font-semibold">
-                  By Day 7, you typically have 2-5 qualified leads from LSAs and GMB alone.
+
+                <h3 className="text-2xl font-semibold mb-4 mt-8">Measurable Results</h3>
+                <p>
+                  Unlike traditional advertising, you can track exactly how many calls, leads, and jobs come from
+                  your Google Ads campaigns. This makes it easy to calculate ROI and optimize performance.
                 </p>
+
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold mb-6">The Acceleration: Days 8-14</h2>
+                <h2 className="text-3xl font-bold mb-6">Google Local Service Ads: Your Secret Weapon</h2>
 
-                <h3 className="text-2xl font-semibold mb-4">Google Search Ads Launch</h3>
-                <p>
-                  Week 2 is when we launch your Google Search Ads campaigns. This is where
-                  the lead volume really starts to scale. We're not talking about generic
-                  "paving contractor" keywords. We target high-intent searches like:
-                </p>
-                <ul className="list-disc pl-6 space-y-2 mb-6">
-                  <li>"driveway paving quote [city]"</li>
-                  <li>"asphalt repair near me"</li>
-                  <li>"parking lot paving contractors"</li>
-                  <li>"residential paving companies [area]"</li>
-                  <li>"get driveway paved cost"</li>
-                </ul>
-                <p>
-                  With a $500-1000 ad budget, we typically generate 10-15 leads from Google
-                  Ads alone during the trial month. Cost per lead: $50-80. These leads have
-                  buying intent - they're actively looking for paving services NOW.
+                <p className="text-lg mb-6">
+                  Google Local Service Ads (LSAs) are the fastest way to get your paving company visible online.
+                  These ads appear at the very top of Google search results - above everything else.
                 </p>
 
-                <h3 className="text-2xl font-semibold mb-4 mt-8">Landing Page Optimization</h3>
-                <p>
-                  Your ads are only as good as where they send people. We create or optimize
-                  a landing page specifically for paving leads with:
-                </p>
+                <h3 className="text-2xl font-semibold mb-4">Why LSAs Are Perfect for Paving Contractors</h3>
                 <ul className="list-disc pl-6 space-y-2 mb-6">
-                  <li>Clear headline matching search intent</li>
-                  <li>Trust signals (reviews, certifications, guarantee)</li>
-                  <li>Simple quote request form (name, phone, service needed)</li>
-                  <li>Mobile-first design (70% of searches are mobile)</li>
-                  <li>Fast load time (under 2 seconds)</li>
+                  <li><strong>Pay Per Lead:</strong> You only pay when someone actually calls or messages you</li>
+                  <li><strong>Google Guaranteed Badge:</strong> Builds instant trust with homeowners</li>
+                  <li><strong>Pre-Screened Leads:</strong> Google verifies service area and availability</li>
+                  <li><strong>Top Position:</strong> Always appear first in search results</li>
+                  <li><strong>Mobile Optimized:</strong> Perfect for on-the-go searches</li>
                 </ul>
-                <p className="font-semibold">
-                  By Day 14, you're typically at 7-13 total leads.
+
+                <h3 className="text-2xl font-semibold mb-4 mt-8">LSA Setup Process</h3>
+                <ol className="list-decimal pl-6 space-y-2 mb-6">
+                  <li><strong>Background Check:</strong> Google requires license verification and background checks</li>
+                  <li><strong>Service Areas:</strong> Define exactly where you work</li>
+                  <li><strong>Budget Setting:</strong> Start with $50-100/day and adjust based on results</li>
+                  <li><strong>Business Hours:</strong> Set when you can answer the phone</li>
+                  <li><strong>Services Offered:</strong> List all your paving services</li>
+                </ol>
+
+                <p className="text-lg">
+                  <strong>Expected Results:</strong> Most paving contractors see their first LSA lead within 24-48 hours.
+                  Average cost per lead: $25-60. Conversion rate: 15-25%.
                 </p>
+
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold mb-6">Google Search Ads: Scale Your Lead Generation</h2>
+
+                {/* Programming Code Image */}
+                <div className="mb-8 rounded-lg overflow-hidden shadow-lg">
+                  <Image
+                    src="/stock-images/programming-code-on-computer-screen.jpg"
+                    alt="Programming code on computer screen - representing the technical setup of Google Ads campaigns"
+                    width={1200}
+                    height={400}
+                    className="w-full h-48 md:h-64 object-cover"
+                    priority={false}
+                  />
+                </div>
+
+                <p className="text-lg mb-6">
+                  While LSAs are great for immediate visibility, Google Search Ads let you target more specific
+                  customer intent and scale your lead generation significantly.
+                </p>
+
+                <h3 className="text-2xl font-semibold mb-4">Best Keywords for Paving Contractors</h3>
+                <p className="mb-4">Focus on high-intent keywords that show buying behavior:</p>
+
+                <div className="bg-gray-50 p-6 rounded-lg mb-6">
+                  <h4 className="font-bold text-lg mb-3">Commercial Paving Keywords</h4>
+                  <ul className="list-disc pl-6 space-y-1">
+                    <li>"parking lot paving contractors [city]"</li>
+                    <li>"commercial asphalt repair [area]"</li>
+                    <li>"parking lot resurfacing near me"</li>
+                    <li>"commercial paving companies [city]"</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg mb-6">
+                  <h4 className="font-bold text-lg mb-3">Residential Paving Keywords</h4>
+                  <ul className="list-disc pl-6 space-y-1">
+                    <li>"driveway paving [city]"</li>
+                    <li>"asphalt driveway contractors near me"</li>
+                    <li>"concrete driveway installation [area]"</li>
+                    <li>"driveway repair contractors [city]"</li>
+                  </ul>
+                </div>
+
+                <h3 className="text-2xl font-semibold mb-4 mt-8">Setting Up Your First Campaign</h3>
+                <ol className="list-decimal pl-6 space-y-3 mb-6">
+                  <li><strong>Campaign Type:</strong> Choose "Search" campaign</li>
+                  <li><strong>Goal:</strong> Select "Leads" or "Phone calls"</li>
+                  <li><strong>Location Targeting:</strong> Target your service area (usually 25-50 mile radius)</li>
+                  <li><strong>Budget:</strong> Start with $50-100/day for testing</li>
+                  <li><strong>Bidding:</strong> Use "Maximize conversions" or manual CPC</li>
+                  <li><strong>Ad Extensions:</strong> Add call, location, and sitelink extensions</li>
+                </ol>
               </section>
 
               <section className="mb-12">
@@ -236,22 +273,30 @@ export default function BlogPost() {
               </section>
 
               <section className="mb-12 bg-gray-50 p-8 rounded-lg">
-                <h2 className="text-3xl font-bold mb-6">Your Next Steps</h2>
+                <h2 className="text-3xl font-bold mb-6">Common Google Ads Mistakes to Avoid</h2>
+                <ul className="space-y-4 mb-6">
+                  <li><strong>Targeting too broad:</strong> Don't target entire states. Stick to your actual service area.</li>
+                  <li><strong>Ignoring negative keywords:</strong> Add terms like "jobs," "salary," and "free" to avoid irrelevant clicks.</li>
+                  <li><strong>Not tracking phone calls:</strong> Use call tracking to measure which ads drive actual phone calls.</li>
+                  <li><strong>Setting and forgetting:</strong> Check performance weekly and adjust bids, budgets, and keywords.</li>
+                  <li><strong>Sending traffic to your homepage:</strong> Create dedicated landing pages for each service.</li>
+                </ul>
+
+                <h2 className="text-3xl font-bold mb-6 mt-8">Getting Started with Google Ads</h2>
                 <p className="text-lg mb-6">
-                  You now know exactly how we generate 20 paving leads in 30 days. The
-                  question is: are you going to keep losing jobs to competitors who are
-                  using these strategies, or are you ready to dominate your market?
+                  Setting up profitable Google Ads campaigns for your paving business doesn't have to be complicated.
+                  Start with Google Local Service Ads for immediate results, then expand to Search Ads as you get comfortable.
                 </p>
                 <p className="text-lg mb-6">
-                  Remember: we only work with one paving contractor per area. Once your
-                  competitor claims your territory, you're locked out.
+                  The key is starting with a clear strategy, measuring everything, and continuously optimizing based on results.
+                  Most paving contractors see their first leads within 24-48 hours of going live.
                 </p>
                 <div className="text-center">
                   <Link href="/get-started" className="btn-primary text-xl">
-                    Claim Your $500 Trial Now
+                    Get Help with Your Google Ads
                   </Link>
                   <p className="text-sm text-gray-600 mt-4">
-                    20 leads guaranteed or pay nothing
+                    Free consultation to discuss your paving business goals
                   </p>
                 </div>
               </section>
